@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +10,6 @@ namespace SmartPro_9
     {
         static void Main(string[] args)
         {
-            #region MATH. FUNCTION
-
             /*
             * Math.Pow(x,y): Bu metot sayesinde vereceğimiz iki parametrenin ilk verilen değeri taban, 
               ikinci verilen değeri üst olarak kabul ederek üs alma işlemi gerçekleştirir.
@@ -61,9 +59,6 @@ namespace SmartPro_9
               değerine ulaşmak istediğimiz zaman bu sabit değere ulaşmamıza yardımcı olur.
 
             */
-
-
-
             Console.WriteLine(Math.Pow(5,4));
             Console.WriteLine(Math.Sqrt(64));
             Console.WriteLine(Math.Abs(-12));
@@ -80,12 +75,7 @@ namespace SmartPro_9
             Console.WriteLine(Math.PI);
             Console.WriteLine(Math.E);
 
-            
-
-
             Console.ReadKey();
-            #endregion
-            
         }
     }
 }
